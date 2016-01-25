@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE5C779B1C55D8B400524A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5C779A1C55D8B400524A28 /* main.m */; };
+		BE5C779E1C55D8B400524A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5C779D1C55D8B400524A28 /* AppDelegate.m */; };
+		BE5C77A11C55D8B400524A28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5C77A01C55D8B400524A28 /* ViewController.m */; };
+		BE5C77A41C55D8B400524A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5C77A21C55D8B400524A28 /* Main.storyboard */; };
+		BE5C77A61C55D8B400524A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5C77A51C55D8B400524A28 /* Assets.xcassets */; };
+		BE5C77A91C55D8B400524A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5C77A71C55D8B400524A28 /* LaunchScreen.storyboard */; };
+		BE5C77B41C55D8B400524A28 /* UIImageView_NSAttributedString__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5C77B31C55D8B400524A28 /* UIImageView_NSAttributedString__Tests.m */; };
+		BE5C77BF1C55D8B400524A28 /* UIImageView_NSAttributedString__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5C77BE1C55D8B400524A28 /* UIImageView_NSAttributedString__UITests.m */; };
+		BE5C77CD1C55DB2F00524A28 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = BE5C77CC1C55DB2F00524A28 /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE5C77B01C55D8B400524A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5C778E1C55D8B400524A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5C77951C55D8B400524A28;
+			remoteInfo = "UIImageView和NSAttributedString对比";
+		};
+		BE5C77BB1C55D8B400524A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5C778E1C55D8B400524A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5C77951C55D8B400524A28;
+			remoteInfo = "UIImageView和NSAttributedString对比";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE5C77961C55D8B400524A28 /* UIImageView和NSAttributedString对比.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIImageView和NSAttributedString对比.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5C779A1C55D8B400524A28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE5C779C1C55D8B400524A28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE5C779D1C55D8B400524A28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE5C779F1C55D8B400524A28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE5C77A01C55D8B400524A28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE5C77A31C55D8B400524A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE5C77A51C55D8B400524A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE5C77A81C55D8B400524A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE5C77AA1C55D8B400524A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5C77AF1C55D8B400524A28 /* UIImageView和NSAttributedString对比Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImageView和NSAttributedString对比Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5C77B31C55D8B400524A28 /* UIImageView_NSAttributedString__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageView_NSAttributedString__Tests.m; sourceTree = "<group>"; };
+		BE5C77B51C55D8B400524A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5C77BA1C55D8B400524A28 /* UIImageView和NSAttributedString对比UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImageView和NSAttributedString对比UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5C77BE1C55D8B400524A28 /* UIImageView_NSAttributedString__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageView_NSAttributedString__UITests.m; sourceTree = "<group>"; };
+		BE5C77C01C55D8B400524A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5C77CC1C55DB2F00524A28 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE5C77931C55D8B400524A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5C77AC1C55D8B400524A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5C77B71C55D8B400524A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE5C778D1C55D8B400524A28 = {
+			isa = PBXGroup;
+			children = (
+				BE5C77981C55D8B400524A28 /* UIImageView和NSAttributedString对比 */,
+				BE5C77B21C55D8B400524A28 /* UIImageView和NSAttributedString对比Tests */,
+				BE5C77BD1C55D8B400524A28 /* UIImageView和NSAttributedString对比UITests */,
+				BE5C77971C55D8B400524A28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE5C77971C55D8B400524A28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE5C77961C55D8B400524A28 /* UIImageView和NSAttributedString对比.app */,
+				BE5C77AF1C55D8B400524A28 /* UIImageView和NSAttributedString对比Tests.xctest */,
+				BE5C77BA1C55D8B400524A28 /* UIImageView和NSAttributedString对比UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE5C77981C55D8B400524A28 /* UIImageView和NSAttributedString对比 */ = {
+			isa = PBXGroup;
+			children = (
+				BE5C779C1C55D8B400524A28 /* AppDelegate.h */,
+				BE5C779D1C55D8B400524A28 /* AppDelegate.m */,
+				BE5C779F1C55D8B400524A28 /* ViewController.h */,
+				BE5C77A01C55D8B400524A28 /* ViewController.m */,
+				BE5C77A21C55D8B400524A28 /* Main.storyboard */,
+				BE5C77A51C55D8B400524A28 /* Assets.xcassets */,
+				BE5C77A71C55D8B400524A28 /* LaunchScreen.storyboard */,
+				BE5C77AA1C55D8B400524A28 /* Info.plist */,
+				BE5C77991C55D8B400524A28 /* Supporting Files */,
+			);
+			path = "UIImageView和NSAttributedString对比";
+			sourceTree = "<group>";
+		};
+		BE5C77991C55D8B400524A28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE5C77CC1C55DB2F00524A28 /* test.png */,
+				BE5C779A1C55D8B400524A28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE5C77B21C55D8B400524A28 /* UIImageView和NSAttributedString对比Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE5C77B31C55D8B400524A28 /* UIImageView_NSAttributedString__Tests.m */,
+				BE5C77B51C55D8B400524A28 /* Info.plist */,
+			);
+			path = "UIImageView和NSAttributedString对比Tests";
+			sourceTree = "<group>";
+		};
+		BE5C77BD1C55D8B400524A28 /* UIImageView和NSAttributedString对比UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE5C77BE1C55D8B400524A28 /* UIImageView_NSAttributedString__UITests.m */,
+				BE5C77C01C55D8B400524A28 /* Info.plist */,
+			);
+			path = "UIImageView和NSAttributedString对比UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE5C77951C55D8B400524A28 /* UIImageView和NSAttributedString对比 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5C77C31C55D8B400524A28 /* Build configuration list for PBXNativeTarget "UIImageView和NSAttributedString对比" */;
+			buildPhases = (
+				BE5C77921C55D8B400524A28 /* Sources */,
+				BE5C77931C55D8B400524A28 /* Frameworks */,
+				BE5C77941C55D8B400524A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImageView和NSAttributedString对比";
+			productName = "UIImageView和NSAttributedString对比";
+			productReference = BE5C77961C55D8B400524A28 /* UIImageView和NSAttributedString对比.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE5C77AE1C55D8B400524A28 /* UIImageView和NSAttributedString对比Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5C77C61C55D8B400524A28 /* Build configuration list for PBXNativeTarget "UIImageView和NSAttributedString对比Tests" */;
+			buildPhases = (
+				BE5C77AB1C55D8B400524A28 /* Sources */,
+				BE5C77AC1C55D8B400524A28 /* Frameworks */,
+				BE5C77AD1C55D8B400524A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5C77B11C55D8B400524A28 /* PBXTargetDependency */,
+			);
+			name = "UIImageView和NSAttributedString对比Tests";
+			productName = "UIImageView和NSAttributedString对比Tests";
+			productReference = BE5C77AF1C55D8B400524A28 /* UIImageView和NSAttributedString对比Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE5C77B91C55D8B400524A28 /* UIImageView和NSAttributedString对比UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5C77C91C55D8B400524A28 /* Build configuration list for PBXNativeTarget "UIImageView和NSAttributedString对比UITests" */;
+			buildPhases = (
+				BE5C77B61C55D8B400524A28 /* Sources */,
+				BE5C77B71C55D8B400524A28 /* Frameworks */,
+				BE5C77B81C55D8B400524A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5C77BC1C55D8B400524A28 /* PBXTargetDependency */,
+			);
+			name = "UIImageView和NSAttributedString对比UITests";
+			productName = "UIImageView和NSAttributedString对比UITests";
+			productReference = BE5C77BA1C55D8B400524A28 /* UIImageView和NSAttributedString对比UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE5C778E1C55D8B400524A28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xfz;
+				TargetAttributes = {
+					BE5C77951C55D8B400524A28 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BU8TQN4LX4;
+					};
+					BE5C77AE1C55D8B400524A28 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BE5C77951C55D8B400524A28;
+					};
+					BE5C77B91C55D8B400524A28 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BE5C77951C55D8B400524A28;
+					};
+				};
+			};
+			buildConfigurationList = BE5C77911C55D8B400524A28 /* Build configuration list for PBXProject "UIImageView和NSAttributedString对比" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE5C778D1C55D8B400524A28;
+			productRefGroup = BE5C77971C55D8B400524A28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE5C77951C55D8B400524A28 /* UIImageView和NSAttributedString对比 */,
+				BE5C77AE1C55D8B400524A28 /* UIImageView和NSAttributedString对比Tests */,
+				BE5C77B91C55D8B400524A28 /* UIImageView和NSAttributedString对比UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE5C77941C55D8B400524A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5C77A91C55D8B400524A28 /* LaunchScreen.storyboard in Resources */,
+				BE5C77A61C55D8B400524A28 /* Assets.xcassets in Resources */,
+				BE5C77A41C55D8B400524A28 /* Main.storyboard in Resources */,
+				BE5C77CD1C55DB2F00524A28 /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5C77AD1C55D8B400524A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5C77B81C55D8B400524A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE5C77921C55D8B400524A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5C77A11C55D8B400524A28 /* ViewController.m in Sources */,
+				BE5C779E1C55D8B400524A28 /* AppDelegate.m in Sources */,
+				BE5C779B1C55D8B400524A28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5C77AB1C55D8B400524A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5C77B41C55D8B400524A28 /* UIImageView_NSAttributedString__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5C77B61C55D8B400524A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5C77BF1C55D8B400524A28 /* UIImageView_NSAttributedString__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE5C77B11C55D8B400524A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5C77951C55D8B400524A28 /* UIImageView和NSAttributedString对比 */;
+			targetProxy = BE5C77B01C55D8B400524A28 /* PBXContainerItemProxy */;
+		};
+		BE5C77BC1C55D8B400524A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5C77951C55D8B400524A28 /* UIImageView和NSAttributedString对比 */;
+			targetProxy = BE5C77BB1C55D8B400524A28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE5C77A21C55D8B400524A28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5C77A31C55D8B400524A28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE5C77A71C55D8B400524A28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5C77A81C55D8B400524A28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE5C77C11C55D8B400524A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "659bb29c-fb0f-4b80-b648-a1c16de85acb";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE5C77C21C55D8B400524A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "659bb29c-fb0f-4b80-b648-a1c16de85acb";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE5C77C41C55D8B400524A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "UIImageView和NSAttributedString对比/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.xfz.UIImageView-NSAttributedString--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BE5C77C51C55D8B400524A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "UIImageView和NSAttributedString对比/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.xfz.UIImageView-NSAttributedString--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BE5C77C71C55D8B400524A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIImageView和NSAttributedString对比Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.xfz.UIImageView-NSAttributedString--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView和NSAttributedString对比.app/UIImageView和NSAttributedString对比";
+			};
+			name = Debug;
+		};
+		BE5C77C81C55D8B400524A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIImageView和NSAttributedString对比Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.xfz.UIImageView-NSAttributedString--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView和NSAttributedString对比.app/UIImageView和NSAttributedString对比";
+			};
+			name = Release;
+		};
+		BE5C77CA1C55D8B400524A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIImageView和NSAttributedString对比UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.xfz.UIImageView-NSAttributedString--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIImageView和NSAttributedString对比";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BE5C77CB1C55D8B400524A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIImageView和NSAttributedString对比UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.xfz.UIImageView-NSAttributedString--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIImageView和NSAttributedString对比";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE5C77911C55D8B400524A28 /* Build configuration list for PBXProject "UIImageView和NSAttributedString对比" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5C77C11C55D8B400524A28 /* Debug */,
+				BE5C77C21C55D8B400524A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5C77C31C55D8B400524A28 /* Build configuration list for PBXNativeTarget "UIImageView和NSAttributedString对比" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5C77C41C55D8B400524A28 /* Debug */,
+				BE5C77C51C55D8B400524A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE5C77C61C55D8B400524A28 /* Build configuration list for PBXNativeTarget "UIImageView和NSAttributedString对比Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5C77C71C55D8B400524A28 /* Debug */,
+				BE5C77C81C55D8B400524A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE5C77C91C55D8B400524A28 /* Build configuration list for PBXNativeTarget "UIImageView和NSAttributedString对比UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5C77CA1C55D8B400524A28 /* Debug */,
+				BE5C77CB1C55D8B400524A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE5C778E1C55D8B400524A28 /* Project object */;
+}
